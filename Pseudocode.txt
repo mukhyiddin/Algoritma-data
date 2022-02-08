@@ -1,0 +1,56 @@
+---------------------Algoritma Data Stuktur - THERMOMETHER --------------------------	
+
+START
+	STORE "Temperature" TO ANY NUMBER
+	STORE "Tipetemperature" TO Fahrenheit,Kelvin,celcius
+
+	IF TipeTemperatir = Fahrenheit
+		DO Temperatur - 32 * 5/9
+	IF ELSE TipeTemperatur =  Kelvin
+		DO Temperatur - 273.15
+	ELSE
+		DO Temperatur=temperatur
+	DISPLAY Temperature
+END	
+
+---------------------Algoritma Data Stuktur - FIZZ BUZZ --------------------------
+
+START
+	STORE "N" TO ANY NUMBER
+	FOR i=1 to i<=n to i++
+
+	IF i MOD 3
+		display "FIZZ"
+	IF ELSE i MOD 5
+		display "BUZZ"
+	IF ELSE i MOD 3 and MOD 5
+		display "FIZZBUZZ"
+	ELSE DISPLAY i
+END	
+
+
+
+---------------------Algoritma Data Stuktur - SAME MEANING --------------------------	
+
+START
+	STORE "text" TO ANY STRING
+	text = stringtoarray
+	reversearray
+	if reversearray == text
+		DISPLAY kata + " Merupakan kata palindrom"
+	ELSE 
+		DISPLAY kata + " Bukan Merupakan kata palindrom"
+	END
+
+
+---------------------Algoritma Data Stuktur - SKILVUL GRADING --------------------------	
+START
+	STORE "Grading" TO NUMBER 1-100
+
+
+	IF "Grading" < 68
+		DO DISPLAY Grading
+	ELSE "Grading" > 68 mod 5
+		DO DISPLAY Grading
+	
+END	
